@@ -1,0 +1,14 @@
+version              4
+type                 1 Ne
+zbl                  1.6 
+cutoff               6 4
+n_max                6 6
+l_max                4 2 
+basis_size           10 8
+neuron               50
+batch                3000
+lambda_e             1
+lambda_f             1
+lambda_v             0.1   
+population           50
+generation           1000000

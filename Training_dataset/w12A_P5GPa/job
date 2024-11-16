@@ -1,0 +1,13 @@
+#!/bin/bash
+
+#BSUB -q 734090ib
+#BSUB -gpu "num=2:aff=yes"
+#BSUB -J train_12_5
+#BSUB -o out
+#BSUB -e err
+
+module purge 
+module load cuda/12.0.0
+/fs08/home/js_wangy/src/gpumd/gpumd-confine/GPUMD/src_morse/nep > log
+
+
